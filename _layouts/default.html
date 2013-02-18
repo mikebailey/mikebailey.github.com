@@ -1,11 +1,40 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>
+      {% if page.title %}
+        {{ page.title}} | mikebailey
+      {% else %}
+        mikebailey
+      {% endif %}
+    </title>
 
-    <link rel="shortcut icon" href="/static/images/final_circle.png" />
-
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
   <body>
-  </body>
+    <div class="wrapper">
+      <header>
+        <h1>mikebailey</h1>
+        <p>Economist and Data Scientist at Facebook</p>
+
+        <p class="view"><a href="https://github.com/mikebailey">View My GitHub Profile</a></p>
+
+      </header>
+      <section>
+        <h3>Welcome to GitHub Pages.</h3>
+
+      <footer>
+        <p><small>Copyright 2013-</a></small></p>
+        <p><small>Hosted on Github Pages via Jekyll</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body> 
 </html>
