@@ -98,3 +98,7 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+=======
+name: Your New Jekyll Site
+markdown: redcarpet
+pygments: true
