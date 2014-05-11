@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Token Web Presence]]></title>
+  <title><![CDATA[Hacking Economics]]></title>
   <link href="http://mikebailey.github.io/atom.xml" rel="self"/>
   <link href="http://mikebailey.github.io/"/>
-  <updated>2014-05-01T23:43:45-07:00</updated>
+  <updated>2014-05-11T00:17:54-07:00</updated>
   <id>http://mikebailey.github.io/</id>
   <author>
     <name><![CDATA[Mike Bailey]]></name>
@@ -12,5 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[test]]></title>
+    <link href="http://mikebailey.github.io/blog/2014/05/09/test/"/>
+    <updated>2014-05-09T23:00:51-07:00</updated>
+    <id>http://mikebailey.github.io/blog/2014/05/09/test</id>
+    <content type="html"><![CDATA[<h1>Testing</h1>
+
+<h2>Testing</h2>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">s</span> <span class="o">=</span> <span class="s">&quot;Python syntax highlighting&quot;</span>
+</span><span class='line'><span class="k">print</span> <span class="n">s</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
 </feed>
